@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'testing01-387705'
         CLUSTER_NAME = 'cluster-1'
         LOCATION = 'us-central1'
-        CREDENTIALS_ID = '<YOUR_CREDENTIAS_ID>'
+        CREDENTIALS_ID = 'testing01-387705'
     }
     stages {
         stage('Deploy to GKE') {
