@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'testing01-387705'
-        CLUSTER_NAME = 'cluster-1'
-        LOCATION = 'us-central1'
-        CREDENTIALS_ID = 'testing01-387705'
+        PROJECT_ID = 'g-prj-afts-cs-uni-pro'
+        CLUSTER_NAME = 'g-clt-afts-uni-prod'
+        LOCATION = 'europe-west3'
+        CREDENTIALS_ID = 'g-prj-afts-cs-uni-pro'
     }
     stages {
         stage('Deploy to GKE') {
