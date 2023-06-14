@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label "agent-pro-01"}
     environment {
         PROJECT_ID = 'g-prj-afts-cs-uni-pro'
         CLUSTER_NAME = 'g-clt-afts-uni-prod'
