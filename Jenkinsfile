@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'g-prj-afts-cs-uni-pro'
         CLUSTER_NAME = 'g-clt-afts-uni-prod'
         LOCATION = 'europe-west3'
-        CREDENTIALS_ID = 'g-prj-afts-cs-uni-pro'
+        CREDENTIALS_ID = 'g-clt-afts-uni-prod'
     }
     stages {
         stage('Deploy to GKE') {
